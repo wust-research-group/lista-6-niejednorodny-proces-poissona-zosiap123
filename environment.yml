@@ -1,0 +1,14 @@
+name: symulacje-komputerowe
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - psutil
+  - toolz
+  - bokeh
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - tqdm
