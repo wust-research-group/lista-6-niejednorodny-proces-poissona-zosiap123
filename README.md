@@ -8,11 +8,6 @@ Wydział Matematyki, Semestr Letni 2023/2024
 
 ---
 
-**Zadanie 1.** Rozkład Poissona
-> Zaimplementuj generowanie próby trajektorii procesu Poissona na odcinku $[0, T]$ opierając się na znajomości rozkładu jego czasów oczekiwania.
-> - Narysuj jego trajektorie.
-> - Napisz algorytm obliczający wartości $N_t$, zweryfikuj czy ma poprawny rozkład.
-
 **Zadanie 1.** Metoda przerzedzania 
 > Napisz algorytm, który dla ustalonej niejednorodnej funkcji intensywności $\lambda(t)$ generuje czasy oczekiwania niejednorodnego procesu Poissona metodą przerzedzania.
 > - Sprawdź poprawność jego działania weryfikując, że $N_t \sim Poiss(\int_{0}^{t}\lambda{(s)}\mbox{ds})$
